@@ -1,2 +1,5 @@
 # Meteora
-Site referente a uma loja de roupas
+Acesse o site aqui: https://meteoraclothes.vercel.app/
+****
+Site referente a uma loja de roupas.
+
