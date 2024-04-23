@@ -1,0 +1,31 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.color-yellow {
+    color: #DAFF01;
+}
+
+.botao-ver-mais {
+    background-color: #9353FF;
+    opacity: 0.9;
+}
+
+.botao-ver-mais:hover {
+    background-color: #9353FF;
+    opacity: 1;
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
