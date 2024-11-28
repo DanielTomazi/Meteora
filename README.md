@@ -1,6 +1,7 @@
 # Meteora Clothes
-Acesse o site aqui: https://meteoraclothes.vercel.app/
-****
-Site referente a uma loja de roupas.
+***
+Access the website here: https://meteoraclothes.vercel.app/
 
+Website for a clothing store.
+***
 ![img](https://github.com/DanielTomazi/Meteora/blob/main/roupaimg-demo.png)
