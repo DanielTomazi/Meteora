@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meteora</title>
     <link rel="shortcut icon" href="./meteora-assets-main/assets/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -15,11 +18,11 @@
 <body>
 
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-md bg-black navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <h1 class="m-0"><img class="d-block" src="./meteora-assets-main/assets/logo-meteora.png"
-                        alt="Logo d aloja meteora"></h1>
+                        alt="Logo da loja meteora"></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -35,17 +38,18 @@
                         <a class="nav-link" href="#">Lojas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Novidade</a>
+                        <a class="nav-link" href="#">Novidades</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Promoções</a>
                     </li>
-
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto"
+                <form class="d-flex search-form" role="search">
+                    <input class="form-control search-input me-2" type="search" placeholder="Digite o produto"
                         aria-label="Pesquisar">
-                    <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+                    <button class="btn search-btn" type="submit">
+                        <i class="bi bi-search me-1"></i>Buscar
+                    </button>
                 </form>
             </div>
         </div>
@@ -109,20 +113,20 @@
     <!--CARROSSEL-->
 
 
-    <h2 class="container text-center my-3 my-xl-5">Busque por categoria:</h2>
-    <!--CARDS CATEGORIA-->
+    <h2 class="section-title">Busque por categoria</h2>
+
     <div class="container row mx-auto g-4">
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card rounded-0 border-0">
+            <div class="card category-card">
               <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-camiseta.png"
                 alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho.">
               <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/categorias/categoria-camiseta.png"
                 alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho.">
               <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/categorias/categoria-camiseta.png"
                 alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho.">
-              <div class="card-header bg-black text-bg-dark">
-                <p class="text-center card-text">
+              <div class="card-header category-header">
+                <p class="text-center category-text">
                   Camisetas
                 </p>
             </div>
@@ -130,15 +134,15 @@
         </div>
     
         <div class="col-6 col-md-4 col-xxl-2">
-          <div class="card rounded-0 border-0">
+          <div class="card category-card">
             <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-bolsas.png"
               alt="Bolsa feminina de couro na cor marrom, com cortes quadrados, e alça dourada em formato de corrente com detalhe verde, em fundo verde limão.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/categorias/categoria-bolsas.png"
               alt="Bolsa feminina de couro na cor marrom, com cortes quadrados, e alça dourada em formato de corrente com detalhe verde, em fundo verde limão.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/categorias/categoria-bolsa.png"
               alt="Bolsa feminina de couro na cor marrom, com cortes quadrados, e alça dourada em formato de corrente com detalhe verde, em fundo verde limão.">
-            <div class="card-header bg-black text-bg-dark">
-              <p class="text-center card-text">
+            <div class="card-header category-header">
+              <p class="text-center category-text">
                 Bolsas
               </p>
             </div>
@@ -146,15 +150,15 @@
         </div>
     
         <div class="col-6 col-md-4 col-xxl-2">
-          <div class="card rounded-0 border-0">
+          <div class="card category-card">
             <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-calcados.png"
               alt="Par de tênis unissex com cor predominante branca e traços na cores laranja, azul, verde e cadarço vermelho, em fundo verde limão.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/categorias/categoria-calcados.png"
               alt="Par de tênis unissex com cor predominante branca e traços na cores laranja, azul, verde e cadarço vermelho, em fundo verde limão.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/categorias/categoria-calcados.png"
               alt="Par de tênis unissex com cor predominante branca e traços na cores laranja, azul, verde e cadarço vermelho, em fundo verde limão.">
-            <div class="card-header bg-black text-bg-dark">
-              <p class="text-center card-text">
+            <div class="card-header category-header">
+              <p class="text-center category-text">
                 Calçados
               </p>
             </div>
@@ -162,15 +166,15 @@
         </div>
     
         <div class="col-6 col-md-4 col-xxl-2">
-          <div class="card rounded-0 border-0">
+          <div class="card category-card">
             <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-calcas.png"
               alt="Quatro calças jeans dobradas e organizadas uma acima da outra, em fundo verde limão.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/categorias/categoria-calcas.png"
               alt="Quatro calças jeans dobradas e organizadas uma acima da outra, em fundo verde limão.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/categorias/categoria-calcas.png"
               alt="Quatro calças jeans dobradas e organizadas uma acima da outra, em fundo verde limão.">
-            <div class="card-header bg-black text-bg-dark">
-              <p class="text-center card-text">
+            <div class="card-header category-header">
+              <p class="text-center category-text">
                 Calças
               </p>
             </div>
@@ -178,15 +182,15 @@
         </div>
     
         <div class="col-6 col-md-4 col-xxl-2">
-          <div class="card rounded-0 border-0">
+          <div class="card category-card">
             <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-casacos.png"
               alt="Casaco masculino na cor marrom em fundo verde limão.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/categorias/categoria-casacos.png"
               alt="Casaco masculino na cor marrom em fundo verde limão.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/categorias/categoria-casacos.png"
               alt="Casaco masculino na cor marrom em fundo verde limão.">
-            <div class="card-header bg-black text-bg-dark">
-              <p class="text-center card-text">
+            <div class="card-header category-header">
+              <p class="text-center category-text">
                 Casacos
               </p>
             </div>
@@ -194,15 +198,15 @@
         </div>
     
         <div class="col-6 col-md-4 col-xxl-2">
-          <div class="card rounded-0 border-0">
+          <div class="card category-card">
             <img class="d-md-none d-block" src="./meteora-assets-main/assets/Mobile/categorias/categoria-oculos.png"
               alt="Óculos de Sol com lentes arredondadas e armação dourada, em fundo verde limão.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/categorias/categoria-oculos.png"
               alt="Óculos de Sol com lentes arredondadas e armação dourada, em fundo verde limão.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/categorias/categoria-oculos.png"
               alt="Óculos de Sol com lentes arredondadas e armação dourada, em fundo verde limão.">
-            <div class="card-header bg-black text-bg-dark">
-              <p class="text-center card-text">
+            <div class="card-header category-header">
+              <p class="text-center category-text">
                 Óculos
               </p>
             </div>
@@ -210,184 +214,287 @@
         </div>
     
       </div>
-    <!--CARDS CATEGORIA-->
 
 
-    <h2 class="container text-center my-3 my-xl-5">Produtos que estão bombando!</h2>
-    <!--CARDS PRODUTOS-->
+    <h2 class="section-title">Produtos que estão bombando!</h2>
+
     <div class="container row mx-auto">
 
         <div class="col-12 col-md-6 col-xxl-4 pb-4">
-          <div class="card">
+          <div class="card product-card">
             <img class="d-block d-md-none" src="./meteora-assets-main/assets/Mobile/produtos/camiseta.png"
               alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/camiseta.png"
               alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/camiseta.png"
               alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Camiseta conforto</h5>
-              <p class="card-text">Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão. Modelagem
+            <div class="card-body product-body">
+              <h5 class="card-title product-title">Camiseta Conforto</h5>
+              <p class="card-text product-description">Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão. Modelagem
                 unissex.
               </p>
-              <p class="fw-bold">R$70,00</p>
-              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+              <p class="product-price">R$ 70,00</p>
+              <a href="#" class="btn btn-primary-custom">
+                <i class="bi bi-eye me-2"></i>Ver mais
+              </a>
             </div>
           </div>
         </div>
     
         <div class="col-12 col-md-6 col-xxl-4 pb-4">
-          <div class="card">
+          <div class="card product-card">
             <img class="d-block d-md-none" src="./meteora-assets-main/assets/Mobile/produtos/calca.png"
               alt="Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/calca.png"
               alt="Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/calca.png"
               alt="Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Calça Alfaiataria</h5>
-              <p class="card-text">Modelo Wide Leg alfaiataria em linho. Uma peça para vida toda!</p>
-              <p class="fw-bold">R$180,00</p>
-              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            <div class="card-body product-body">
+              <h5 class="card-title product-title">Calça Alfaiataria</h5>
+              <p class="card-text product-description">Modelo Wide Leg alfaiataria em linho. Uma peça para vida toda!</p>
+              <p class="product-price">R$ 180,00</p>
+              <a href="#" class="btn btn-primary-custom">
+                <i class="bi bi-eye me-2"></i>Ver mais
+              </a>
             </div>
           </div>
         </div>
     
         <div class="col-12 col-md-6 col-xxl-4 pb-4">
-          <div class="card">
+          <div class="card product-card">
             <img class="d-block d-md-none" src="./meteora-assets-main/assets/Mobile/produtos/tenis.png"
               alt="Foco nos pés de modelo usando par de tênis e meia na cor branca, e calça na cor preta, pisando em uma poça de água.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/tenis.png"
               alt="Foco nos pés de modelo usando par de tênis e meia na cor branca, e calça na cor preta, pisando em uma poça de água.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/tenis.png"
               alt="Foco nos pés de modelo usando par de tênis e meia na cor branca, e calça na cor preta, pisando em uma poça de água.">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Tênis Chunky</h5>
-              <p class="card-text">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
-              <p class="fw-bold">R$250,00</p>
-              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            <div class="card-body product-body">
+              <h5 class="card-title product-title">Tênis Chunky</h5>
+              <p class="card-text product-description">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+              <p class="product-price">R$ 250,00</p>
+              <a href="#" class="btn btn-primary-custom">
+                <i class="bi bi-eye me-2"></i>Ver mais
+              </a>
             </div>
           </div>
         </div>
     
         <div class="col-12 col-md-6 col-xxl-4 pb-4">
-          <div class="card">
+          <div class="card product-card">
             <img class="d-block d-md-none" src="./meteora-assets-main/assets/Mobile/produtos/jaqueta-jeans.png"
               alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/jaqueta-jeans.png"
               alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/jaqueta-jeans.png"
               alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Jaqueta Jeans</h5>
-              <p class="card-text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
-              <p class="fw-bold">R$150,00</p>
-              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            <div class="card-body product-body">
+              <h5 class="card-title product-title">Jaqueta Jeans</h5>
+              <p class="card-text product-description">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+              <p class="product-price">R$ 150,00</p>
+              <a href="#" class="btn btn-primary-custom">
+                <i class="bi bi-eye me-2"></i>Ver mais
+              </a>
             </div>
           </div>
         </div>
     
         <div class="col-12 col-md-6 col-xxl-4 pb-4">
-          <div class="card">
+          <div class="card product-card">
             <img class="d-block d-md-none" src="./meteora-assets-main/assets/Mobile/produtos/oculos.png"
               alt="Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.">
             <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/oculos.png"
               alt="Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/oculos.png"
               alt="Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Óculos Redondo</h5>
-              <p class="card-text">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
-              <p class="fw-bold">R$120,00</p>
-              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+            <div class="card-body product-body">
+              <h5 class="card-title product-title">Óculos Redondo</h5>
+              <p class="card-text product-description">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+              <p class="product-price">R$ 120,00</p>
+              <a href="#" class="btn btn-primary-custom">
+                <i class="bi bi-eye me-2"></i>Ver mais
+              </a>
             </div>
           </div>
         </div>
     
         <div class="col-12 col-md-6 col-xxl-4 pb-4">
-          <div class="card">
+          <div class="card product-card">
             <img class="d-block d-md-none" src="./meteora-assets-main/assets/Mobile/produtos/bolsa.png"
               alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.">
             <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/produtos/bolsa.png"
               alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.">
             <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/bolsa.png"
               alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Bolsa coringa</h5>
-              <p class="card-text">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma
+            <div class="card-body product-body">
+              <h5 class="card-title product-title">Bolsa Coringa</h5>
+              <p class="card-text product-description">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma
                 vida!</p>
-              <p class="fw-bold">R$120,00</p>
-              <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+              <p class="product-price">R$ 120,00</p>
+              <a href="#" class="btn btn-primary-custom">
+                <i class="bi bi-eye me-2"></i>Ver mais
+              </a>
             </div>
           </div>
         </div>
     
       </div>
-    <!--CARDS PRODUTOS-->
 
 
-    <!--FACILIDADES-->
-    <section class="pb-4 py-5 bg-black text-bg-dark my-5">
+    <section class="features-section">
+        <div class="container">
+            <h2 class="features-title text-center">Conheça todas as nossas facilidades</h2>
 
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3 mt-4">
 
-        <h2 class="text-center">Conheça todas as nossas facilidades</h2>
-
-        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3 mt-4">
-
-            <div class="divs-facilidades d-flex">
-                <div><i class="bi bi-x-diamond fs-1 color-yellow"></i></div>
-                <div>
-                    <div class="ms-3 mb-1 color-yellow">PAGUE PELO PIX</div>
-                    <div class="texto-menor ms-3">Ganhe 5% OFF em
-                        pagamentos via PIX</div>
+                <div class="feature-item d-flex">
+                    <div><i class="bi bi-x-diamond feature-icon"></i></div>
+                    <div>
+                        <div class="feature-title">PAGUE PELO PIX</div>
+                        <div class="feature-description">Ganhe 5% OFF em
+                            pagamentos via PIX</div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="divs-facilidades d-flex">
-                <div><i class="bi bi-arrow-repeat fs-1 color-yellow"></i></div>
-                <div>
-                    <div class="ms-3 mb-1 color-yellow">TROCA GRÁTIS</div>
-                    <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias.</div>
+                <div class="feature-item d-flex">
+                    <div><i class="bi bi-arrow-repeat feature-icon"></i></div>
+                    <div>
+                        <div class="feature-title">TROCA GRÁTIS</div>
+                        <div class="feature-description">Fique livre para trocar em até 30 dias.</div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="divs-facilidades d-flex">
-                <div><i class="bi bi-flower1 fs-1 color-yellow"></i></div>
-                <div>
-                    <div class="ms-3 mb-1 color-yellow">SUSTENTABILIDADE</div>
-                    <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
+                <div class="feature-item d-flex">
+                    <div><i class="bi bi-flower1 feature-icon"></i></div>
+                    <div>
+                        <div class="feature-title">SUSTENTABILIDADE</div>
+                        <div class="feature-description">Moda responsável, que respeita o meio ambiente.</div>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
-    <!--FACILIDADES-->
 
 
-    <!--NOVIDADES-->
-    <form class="border border-secondary container my-3 my-xl-5 p-3 text-center">
-        <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
-        <div class="input-group my-3">
-            <input type="email" placeholder="Digite seu e-mail" class="form-control border-secondary rounded-0"
+    <div class="newsletter-section">
+        <h5 class="newsletter-title">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+        <div class="input-group newsletter-form">
+            <input type="email" placeholder="Digite seu e-mail" class="form-control newsletter-input"
                 aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
             <button type="button" id="button-addon2"
-                class="btn botao-ver-mais border-0 rounded-0 text-light">Enviar</button>
+                class="btn newsletter-btn">
+                <i class="bi bi-send me-2"></i>Enviar
+            </button>
         </div>
-    </form>
-    <!--NOVIDADES-->
+    </div>
 
 
-    <!--FOOTER-->
-    <footer class="text-center text-bg-dark">
-        <p class="py-3">
+    <footer class="footer text-center">
+        <p class="footer-text py-3">
             Desenvolvido por Daniel Tomazi <i class="bi bi-r-circle"></i> 
         </p>
     </footer>
-    <!--FOOTER-->
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.querySelector('.navbar');
+        const sections = document.querySelectorAll('section, .section-title, .category-card, .product-card');
+        
+        function handleScroll() {
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        }
+        
+        function observeElements() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-fade-in');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        }
+        
+        function addParticleEffects() {
+            const hero = document.querySelector('.carousel');
+            if (hero) {
+                for (let i = 0; i < 20; i++) {
+                    const particle = document.createElement('div');
+                    particle.style.cssText = `
+                        position: absolute;
+                        width: 4px;
+                        height: 4px;
+                        background: linear-gradient(45deg, #9353FF, #DAFF01);
+                        border-radius: 50%;
+                        opacity: 0.6;
+                        animation: float 6s infinite linear;
+                        left: ${Math.random() * 100}%;
+                        top: ${Math.random() * 100}%;
+                        z-index: 1;
+                        pointer-events: none;
+                    `;
+                    
+                    const style = document.createElement('style');
+                    style.textContent = `
+                        @keyframes float {
+                            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+                            10% { opacity: 0.6; }
+                            90% { opacity: 0.6; }
+                            100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+                        }
+                    `;
+                    document.head.appendChild(style);
+                    hero.style.position = 'relative';
+                    hero.appendChild(particle);
+                    
+                    setTimeout(() => {
+                        particle.remove();
+                    }, 6000);
+                }
+            }
+        }
+        
+        function addHoverSounds() {
+            const buttons = document.querySelectorAll('.btn-primary-custom, .category-card, .product-card');
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', () => {
+                    button.style.transform = button.style.transform || '';
+                });
+            });
+        }
+        
+        window.addEventListener('scroll', handleScroll);
+        observeElements();
+        addHoverSounds();
+        
+        setInterval(addParticleEffects, 3000);
+        
+        const newsletterForm = document.querySelector('.newsletter-form');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const button = this.querySelector('.newsletter-btn');
+                const originalText = button.innerHTML;
+                button.innerHTML = '<i class="bi bi-check-circle me-2"></i>Enviado!';
+                button.style.background = 'linear-gradient(135deg, #10B981, #059669)';
+                
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                    button.style.background = '';
+                }, 2000);
+            });
+        }
+    });
+</script>
 
 </html>
