@@ -1,4 +1,4 @@
-# 🌟 Meteora - Loja de Roupas Premium
+# Meteora - Loja de Roupas Premium
 
 <div align="center">
 
@@ -16,30 +16,30 @@
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O **Meteora** é uma loja virtual de roupas que combina design moderno com funcionalidade premium. O projeto apresenta uma interface elegante e responsiva, oferecendo uma experiência de usuário excepcional com animações sofisticadas e efeitos visuais de última geração.
 
-### ✨ Características Principais
+### Características Principais
 
-- 🎨 **Design Premium**: Interface moderna com gradientes complexos e glassmorphism
-- 📱 **Totalmente Responsivo**: Otimizado para desktop, tablet e mobile
-- 🚀 **Performance Otimizada**: Carregamento rápido e animações fluidas
-- 💫 **Microinterações**: Efeitos hover avançados e feedback visual
-- 🌈 **Sistema de Cores**: Paleta harmoniosa com cores vibrantes
-- ⚡ **Interatividade**: JavaScript vanilla para máxima performance
+- **Design Premium**: Interface moderna com gradientes complexos e glassmorphism
+- **Totalmente Responsivo**: Otimizado para desktop, tablet e mobile
+- **Performance Otimizada**: Carregamento rápido e animações fluidas
+- **Microinterações**: Efeitos hover avançados e feedback visual
+- **Sistema de Cores**: Paleta harmoniosa com cores vibrantes
+- **Interatividade**: JavaScript vanilla para máxima performance
 
 ---
 
-## 🚀 Demo
+## Demo
 
 ![Meteora Preview](roupaimg-demo.png)
 
-**[🌐 Acesse o site ao vivo](https://meteoraclothes.vercel.app/)**
+**[Acesse o site ao vivo](https://meteoraclothes.vercel.app/)**
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Versão | Descrição |
 |------------|--------|-----------|
@@ -51,27 +51,27 @@ O **Meteora** é uma loja virtual de roupas que combina design moderno com funci
 
 ---
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
-### 🏠 **Interface Principal**
+### **Interface Principal**
 - ✅ Navbar fixa com efeitos de scroll
 - ✅ Carousel responsivo com múltiplas imagens
 - ✅ Sistema de busca integrado
 - ✅ Animações de entrada suaves
 
-### 🛍️ **Catálogo de Produtos**
+### **Catálogo de Produtos**
 - ✅ Grid responsivo de categorias
 - ✅ Cards de produtos interativos
 - ✅ Efeitos hover sofisticados
 - ✅ Preços em destaque
 
-### 💎 **Experiência Premium**
+### **Experiência Premium**
 - ✅ Efeitos de glassmorphism
 - ✅ Gradientes complexos
 - ✅ Partículas animadas
 - ✅ Transições suaves
 
-### 📧 **Newsletter**
+### **Newsletter**
 - ✅ Formulário interativo
 - ✅ Validação em tempo real
 - ✅ Feedback visual
@@ -79,7 +79,7 @@ O **Meteora** é uma loja virtual de roupas que combina design moderno com funci
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Meteora/
@@ -99,15 +99,15 @@ Meteora/
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
-### 1️⃣ **Clone o Repositório**
+### **Clone o Repositório**
 ```bash
 git clone https://github.com/DanielTomazi/Meteora.git
 cd Meteora
 ```
 
-### 2️⃣ **Abra o Projeto**
+### **Abra o Projeto**
 ```bash
 # Abrir diretamente no navegador
 open index.html
@@ -116,14 +116,14 @@ open index.html
 # Clique com botão direito em index.html > "Open with Live Server"
 ```
 
-### 3️⃣ **Ou Acesse Online**
+### **Ou Acesse Online**
 **[🌐 meteoraclothes.vercel.app](https://meteoraclothes.vercel.app/)**
 
 ---
 
-## 🎨 Design System
+## Design System
 
-### 🎭 **Paleta de Cores**
+### **Paleta de Cores**
 ```css
 :root {
     --primary-color: #9353FF;     /* Roxo vibrante */
@@ -134,12 +134,12 @@ open index.html
 }
 ```
 
-### 📐 **Tipografia**
+### **Tipografia**
 - **Fonte Principal**: Inter (Google Fonts)
 - **Pesos**: 300, 400, 500, 600, 700, 800
 - **Hierarquia**: Títulos em gradiente, textos em cinza balanceado
 
-### 🎯 **Componentes**
+### **Componentes**
 - **Cards**: Border-radius 16px com sombras suaves
 - **Botões**: Gradientes com efeitos hover
 - **Inputs**: Focus states com glow
@@ -147,7 +147,7 @@ open index.html
 
 ---
 
-## 📱 Responsividade
+## Responsividade
 
 | Dispositivo | Breakpoint | Layout |
 |-------------|------------|--------|
@@ -159,40 +159,20 @@ open index.html
 
 ---
 
-## ⚡ Performance
+## Performance
 
-### 🎯 **Otimizações Implementadas**
+### **Otimizações Implementadas**
 - ✅ **Imagens Responsivas**: Múltiplas resoluções para cada dispositivo
 - ✅ **CSS Minificado**: Variáveis CSS para reutilização
 - ✅ **JavaScript Otimizado**: Vanilla JS para performance máxima
 - ✅ **Fonts Preload**: Google Fonts com preconnect
 - ✅ **Lazy Loading**: Carregamento progressivo de elementos
 
-### 📊 **Métricas**
-- 🚀 **Primeiro Carregamento**: < 2s
-- ⚡ **Interatividade**: < 0.5s
-- 📱 **Mobile Performance**: 95+
-- 🖥️ **Desktop Performance**: 98+
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são sempre bem-vindas! Para contribuir:
-
-1. 🍴 **Fork** o projeto
-2. 🌿 Crie uma **branch** para sua feature (`git checkout -b feature/AmazingFeature`)
-3. 📝 **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 **Push** para a branch (`git push origin feature/AmazingFeature`)
-5. 🔄 Abra um **Pull Request**
-
----
-
-## 👨‍💻 Autor
-
-<div align="center">
-
-**Daniel Tomazi**
+### **Métricas**
+- **Primeiro Carregamento**: < 2s
+- **Interatividade**: < 0.5s
+- **Mobile Performance**: 95+
+- **Desktop Performance**: 98+
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://danieltomazi.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/daniel-tomazi)
